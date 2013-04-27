@@ -38,12 +38,12 @@ public class CommandRunas {
             case 1:
                 String argument = args[0].toLowerCase();
 
-                switch (argument) {
+                /*switch (argument) {
                     case "reload":
                         break;
                     default:
                         break;
-                }
+                }*/
                 break;
             case 2:
                 
