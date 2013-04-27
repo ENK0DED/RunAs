@@ -1,0 +1,32 @@
+name: RunAs
+version: 1.2
+main: com.github.enk0ded.runas.RunAs
+author: ENK0DED
+commands:
+  runas:
+    description: Runs a command as an earlier defined user.
+    usage: /<command> <run-command>
+  runastemp:
+    description: Runs a command as an earlier defined temporary user.
+    usage: /<command> <run-command>
+  runasusr:
+    description: Runs a command as the defined user.
+    usage: /<command> <username> <run-command>
+  sayasusr:
+    description: Says something in the chat as the defined user.
+    usage: /<command> <username> <say>
+  setusr:
+    description: Sets the user to perform the commands run by the runas command.
+    usage: /<command> <username>
+  settempusr:
+    description: Sets the temporary user for the runastemp command.
+    usage: /<command> <username>
+  deltempusr:
+    description: Deletes the temporary user created earlier.
+    usage: /<command>
+  modifycmd:
+    description: Replaces <user> in a command by an earlier defined user.
+    usage: /<command> <run-command>
+  modifycmdtemp:
+    description: Replaces <user> in a command by an earlier defined temporary user.
+    usage: /<command> <run-command>
